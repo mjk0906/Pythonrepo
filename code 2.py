@@ -27,4 +27,19 @@ num6 += 10
 print(num6)
 num6 **= 10
 print(num6)
+
+#logical operators
 print(not(num3>num4))
+print(num3>num4 and num3==num4)
+print(num3>num4 or num3<num4)
+
+#type conversion and type casting 
+
+num7="45"
+num7=int(num7)
+print(type(num7))
+
+num8= int(input("enter a number:"))
+num9=int(input("enter another number:"))
+sum1= num8+num9
+print("the sum of biht the numbers entered above is :",sum1)
