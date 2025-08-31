@@ -7,3 +7,8 @@ print( not(a>=b))
 
 name= "jayant"
 print(len(name))
+print(name[5])
+# string functions 
+
+print(name.endswith("n"))
+print(name.capitalize())
