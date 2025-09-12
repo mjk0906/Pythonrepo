@@ -35,3 +35,12 @@ else:
 
 marks=[959,988,977,972,809,767,490,879]
 print(type(marks))
+
+#palindrome check code 
+list1=[1,2,3,2,1]
+list1copy=list1.copy()
+list1copy.reverse()
+if(list1copy==list1):
+     print("the list is palindrome in nature")
+else:
+     print("the list is not palindrome in nature")

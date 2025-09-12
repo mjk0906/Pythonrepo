@@ -15,7 +15,7 @@ print(len(name1))
 
 price=str(input("enter the price of your macbook:"))
 print(price.count("$"))
-#condotional statements
+#conditional statements
 
 
 
