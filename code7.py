@@ -32,3 +32,12 @@ meanings={
 subjects={"python","java","c++","python","js","java","pthon","java","c++","c"}
 print(len(subjects))
 print(subjects)
+
+#loops 
+
+count=1
+while(count<=1):
+    print("paradise")
+    count+=1
+
+print("loop ended")     
