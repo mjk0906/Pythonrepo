@@ -13,6 +13,22 @@ info={
 }
 
 print(info["games"])
-    
 
+set1= {1,2,3,4,5,6,7,"amma",9}
+print(set1)
+print(type(set1))
+print(len(set1))
+emptyset=set()
+set2={10,7,8}
+print(set1.union(set2))
+#verygood 
 
+meanings={
+    "table":["furniture", "list of facts and figures"] ,
+    "cat":"a pet animal"
+
+}
+
+subjects={"python","java","c++","python","js","java","pthon","java","c++","c"}
+print(len(subjects))
+print(subjects)
