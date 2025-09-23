@@ -47,8 +47,10 @@ while(i<=10):
     print(3*i)
     i+=1
 
-nums=[1,4,9,16,25,36,49,64,81,100]
+nums=(1,4,9,16,25,36,49,64,81,100)
 j=0
+x=36
 while(j<=len(nums)):
-    print(nums[j])
+    print(nums(j))
     j+=1
+
