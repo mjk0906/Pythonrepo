@@ -53,4 +53,4 @@ x=36
 while(j<=len(nums)):
     print(nums(j))
     j+=1
-
+ 

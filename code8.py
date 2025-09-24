@@ -41,9 +41,36 @@ for i in seq:
     print(i)
 for i in range(5):
     print(i)
-for i in range(2,100,2):
+for i in range(2,101,2):
     print(i)
-    
 
+for i in range(9):
+    pass 
 
+n=5
+prod=1
+i=1
+while i<=5:
+    prod=prod*i
+    i+=1
+print("the product is total :",prod)
+  
+#functions in python 
+def calc_sum(a,b):
+    sum=a+b
+    print("the sum is function",sum)
+    return sum 
+
+calc_sum(4,5)
+A=["ironman","superman","batman","captain america"]
+
+def print_len(list):
+    print(len(list))
     
+print_len(A)
+
+def print_list(list):
+    for item in list:
+        print(item,end="\n")
+
+print_list(A)
