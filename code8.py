@@ -74,3 +74,14 @@ def print_list(list):
         print(item,end="\n")
 
 print_list(A)
+
+
+
+
+#file I/O
+
+with open("practice.test","w") as f:
+    f.write("Hi everyone \n We are learning file I/O \n ")
+    f.write("using python language \n I love programming")
+    print(f.read())
+        
